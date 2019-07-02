@@ -3,7 +3,11 @@
 ```jsx
 import FlexBox from "@jxz/flexbox";
 
-<FlexBox flexDirection={"row"} justifyContent={"space-between"} width={"600px"}>
+<FlexBox
+  flexDirection={"row-reverse"}
+  justifyContent={"space-between"}
+  width={"600px"}
+>
   <FlexBox>
     <label>
       Title:{" "}
@@ -28,7 +32,7 @@ import FlexBox from "@jxz/flexbox";
       />
     </label>
   </FlexBox>
-  <FlexBox>
+  <FlexBox width={"120px"}>
     <button>Add Recipe</button>
   </FlexBox>
 </FlexBox>;
